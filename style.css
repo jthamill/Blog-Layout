@@ -36,3 +36,50 @@ h2 {
   grid-template-columns: 3fr 12fr 5fr;
   gap: 10px 50px;
 }
+
+h2 {
+  grid-column: 2 / 3;
+}
+
+p {
+  grid-column: 2 / 3;
+}
+
+.tip {
+  background: lightgrey;
+  padding: 10px;
+}
+
+.tip-right {
+  grid-column: 3 / -1;
+  border-left: solid #ffc600;
+}
+
+.levi {
+  background: lightblue;
+  display: inline-block;
+}
+
+blockquote {
+  grid-column: 1 / -1;
+  justify-self: center;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+}
+
+figure {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+figcaption {
+  font-size: 10px;
+}
+
+.tip-left {
+  grid-column: 1 / 2;
+  border-right: solid #ffc600;
+  text-align: right;
+}
